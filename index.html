@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wordle</title>
+    <script src="./words.js" defer></script>
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="main">
+      <section class="menssagge" id="messagge">
+        
+      </section>
+      <section class="grid" id="grid"></section>
+      <section class="keyboard">
+        <div class="keyboard_container" id="keyboard">
+          <div class="keyboard_row">
+            <button class="keyboard_key" aria-label="Q">Q</button>
+            <button class="keyboard_key" aria-label="W">W</button>
+            <button class="keyboard_key" aria-label="E">E</button>
+            <button class="keyboard_key" aria-label="R">R</button>
+            <button class="keyboard_key" aria-label="T">T</button>
+            <button class="keyboard_key" aria-label="Y">Y</button>
+            <button class="keyboard_key" aria-label="U">U</button>
+            <button class="keyboard_key" aria-label="I">I</button>
+            <button class="keyboard_key" aria-label="O">O</button>
+            <button class="keyboard_key" aria-label="P">P</button>
+          </div>
+          <div class="keyboard_row">
+            <button class="keyboard_key" aria-label="A">A</button>
+            <button class="keyboard_key" aria-label="S">S</button>
+            <button class="keyboard_key" aria-label="D">D</button>
+            <button class="keyboard_key" aria-label="F">F</button>
+            <button class="keyboard_key" aria-label="G">G</button>
+            <button class="keyboard_key" aria-label="H">H</button>
+            <button class="keyboard_key" aria-label="J">J</button>
+            <button class="keyboard_key" aria-label="K">K</button>
+            <button class="keyboard_key" aria-label="L">L</button>
+            <button class="keyboard_key" aria-label="Ñ">Ñ</button>
+          </div>
+          <div class="keyboard_row">
+            <button class="keyboard_key" aria-label="enter" id="enter">
+              ENVIAR
+            </button>
+            <button class="keyboard_key" aria-label="Z">Z</button>
+            <button class="keyboard_key" aria-label="X">X</button>
+            <button class="keyboard_key" aria-label="C">C</button>
+            <button class="keyboard_key" aria-label="V">V</button>
+            <button class="keyboard_key" aria-label="B">B</button>
+            <button class="keyboard_key" aria-label="N">N</button>
+            <button class="keyboard_key" aria-label="M">M</button>
+            <button class="keyboard_key" aria-label="delete">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                aria-hidden="true"
+                class="key_delete"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2M3 12l6.414 6.414a2 2 0 001.414.586H19a2 2 0 002-2V7a2 2 0 00-2-2h-8.172a2 2 0 00-1.414.586L3 12z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
