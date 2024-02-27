@@ -1,8 +1,7 @@
 const $grid = document.getElementById('grid');
 const $messagge = document.getElementById('messagge');
 
-// const GAME_WORD = words[Math.floor(Math.random() * words.length)];
-const GAME_WORD = 'arbol';
+const GAME_WORD = words[Math.floor(Math.random() * words.length)];
 
 let html_grid = '';
 let actual_row = 1;
